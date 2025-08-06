@@ -71,7 +71,6 @@ body {
 .main-page {
     background-color: #2E2F42;
     color: #FFFFFF;
-
 }
 
 .title-main {
@@ -101,7 +100,6 @@ button:focus {
 }
 
 .title-team {
-    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
