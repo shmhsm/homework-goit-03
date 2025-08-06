@@ -65,10 +65,10 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail a:hover  {
+.info a:hover  {
     color: #404bbf;
 }
-.mail a:focus {
+.info a:focus {
     color: #404bbf;
 }
 
