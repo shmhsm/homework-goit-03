@@ -75,6 +75,7 @@ body {
 }
 
 .title-main {
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -100,6 +101,7 @@ button:focus {
 }
 
 .title-team {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -114,6 +116,7 @@ button:focus {
     background-color: #F4F4FD;
 }
 .title {
+    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
