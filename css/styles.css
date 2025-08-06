@@ -78,7 +78,7 @@ body {
 
 }
 
-.title {
+.title-main {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -118,7 +118,7 @@ button:focus {
 .team {
     background-color: #F4F4FD;
 }
-.our-team {
+.title {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
@@ -141,7 +141,7 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.portfolio-title {
+.title {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
