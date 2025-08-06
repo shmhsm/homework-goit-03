@@ -24,7 +24,7 @@ body {
     text-decoration: none;
     color: #4d5ae5;
 }
-.logo-2 {
+.logo-span {
     color: #2E2F42;
 }
 .studio {
@@ -129,14 +129,14 @@ button:focus {
 .hiro {
     background-color: #FFFFFF;
 }
-.hiro h3 {
+.title-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.hiro p {
+.p-team {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
@@ -166,7 +166,7 @@ button:focus {
 .footer {
     background-color: #2E2F42;
 }
-.footer p {
+.p-footer {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
