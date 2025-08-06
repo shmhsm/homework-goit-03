@@ -20,7 +20,7 @@ body {
     font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 1.17;
-
+    text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
 }
@@ -54,8 +54,10 @@ body {
 .navigation a:focus {
     color: #404BBF;
 }
-.info a {
+.info {
     font-style: normal;
+}
+.info a {
     text-decoration: none;
 }
 .mail {
@@ -76,7 +78,7 @@ body {
 
 }
 
-.h1 {
+.h1-sec {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
