@@ -139,6 +139,8 @@ button:focus {
 .p-team {
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
 }
 
 .title {
@@ -165,6 +167,9 @@ button:focus {
 
 .footer {
     background-color: #2E2F42;
+}
+.span-footer {
+    color: #f4f4fd;
 }
 .p-footer {
     color: #F4F4FD;
