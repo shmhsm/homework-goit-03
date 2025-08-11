@@ -71,14 +71,16 @@ img {
     color: #404bbf;
 }
 
+.navigation {
+    display: flex;
+    margin-right: 40px;
+}
 .navigation a {
     display: flex;
+    margin-right: 40px;
     text-decoration: none;
     color: #2E2F42;
     font-weight: 500;
-}
-.navigation li {
-    margin-right: 40px;
 }
 
 .navigation a:hover {
