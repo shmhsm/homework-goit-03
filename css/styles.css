@@ -93,10 +93,8 @@ img {
 
 .address {
     display: flex;
-} 
-.address li {
     margin-right: 40px;
-}
+} 
 
 .info {
     font-style: normal;
