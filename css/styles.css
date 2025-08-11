@@ -27,9 +27,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-.section {
-    padding: 120px 0;
-}
 
 .page-header {
     line-height: 1.5;
@@ -73,11 +70,9 @@ img {
 
 .navigation {
     display: flex;
-    margin-right: 40px;
+    gap: 40px;
 }
 .navigation a {
-    display: flex;
-    margin-right: 40px;
     text-decoration: none;
     color: #2E2F42;
     font-weight: 500;
@@ -93,9 +88,8 @@ img {
 
 .address {
     display: flex;
-    margin-right: 40px;
+    gap: 40px;
 } 
-
 .info {
     font-style: normal;
 }
@@ -112,6 +106,11 @@ img {
 }
 .info a:focus {
     color: #404bbf;
+}
+
+
+.section1 {
+    padding: 188px 0;
 }
 
 .main-page {
@@ -136,6 +135,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;;
 }
 
 button:hover {
@@ -145,14 +148,28 @@ button:focus {
     background-color: #404BBF;
 }
 
+
+.section2 {
+    padding: 120px 0;
+}
+
+.list-team {
+    display: flex;
+    gap: 24px;
+}
+.frst-pic {
+    calc((100% - 72px) / 4);
+}
 .title-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .visually-hidden {
+    max-width: 496px;
     position: absolute;
     width: 1px;
     height: 1px;
@@ -205,6 +222,11 @@ button:focus {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
+}
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .span-footer {
     color: #f4f4fd;
