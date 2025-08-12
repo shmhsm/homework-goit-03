@@ -23,14 +23,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
 .container {
     display: flex;
     max-width: 1158px;
@@ -43,6 +35,7 @@ img {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
 }
+
 .navigation-tag {
     display: flex;
     align-items: center;
@@ -60,9 +53,19 @@ img {
 
     margin-right: 76px;
 }
+
 .logo-span {
     color: #2E2F42;
 }
+
+.navig-list {
+    margin-right: 40px;
+}
+
+.navig-list-end {
+    margin-right: 0px;
+}
+
 .studio {
     font-weight: 500;
     font-size: 16px;
@@ -72,17 +75,19 @@ img {
 
     padding: 24px 0;
 }
+
 .studio a:hover {
     color: #404bbf;
 }
+
 .studio a:focus {
     color: #404bbf;
 }
 
 .navigation {
     display: flex;
-    gap: 40px;
 }
+
 .navigation a {
     text-decoration: none;
     color: #2E2F42;
@@ -99,32 +104,39 @@ img {
 
 .address {
     display: flex;
-    gap: 40px;
 } 
+
 .info {
     font-style: normal;
 }
+
 .info a {
     text-decoration: none;
 }
+
 .mail {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
+
+    margin-right: 40px;
 }
+.telef {
+    margin-right: 0px;
+}
+
+
 .info a:hover  {
     color: #404bbf;
 }
+
 .info a:focus {
     color: #404bbf;
 }
 
 
 
-
-
-
-.section1 {
+.first-section {
     padding: 188px 0;
 }
 
@@ -143,6 +155,7 @@ img {
 
     max-width: 496px;
 }
+
 .btn {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -162,16 +175,14 @@ img {
 button:hover {
     background-color: #404BBF;
 }
+
 button:focus {
     background-color: #404BBF;
 }
 
 
 
-
-
-
-.section2 {
+.second-sec {
     padding: 120px 0;
 }
 
@@ -179,9 +190,11 @@ button:focus {
     display: flex;
     gap: 24px;
 }
+
 .frst-pic {
-    width:calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .title-team {
     font-weight: 500;
     font-size: 20px;
@@ -191,6 +204,7 @@ button:focus {
 
     margin-bottom: 8px;
 }
+
 .visually-hidden {
     max-width: 496px;
     position: absolute;
@@ -204,15 +218,14 @@ button:focus {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .strategy {
     letter-spacing: 0.02em;
 }
 
 
 
-
-
-.section3 {
+.third-sec {
     padding: 120px 0;
 }
 .list-team {
@@ -241,7 +254,7 @@ button:focus {
     text-align: center;
     margin-bottom: 8px;
 }
-.details {
+.container1 {
     padding: 32px 0;
 }
 .team-p {
@@ -255,7 +268,7 @@ button:focus {
 
 
 
-.section4 {
+.fourth-sec {
     padding-top: 120px 0;
 }
 .list-portf {
@@ -294,7 +307,8 @@ button:focus {
 
 .footer {
     background-color: #2E2F42;
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logo-footer {
     display: inline-block;
