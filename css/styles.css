@@ -71,7 +71,6 @@ img {
     color: #2e2f42;
 
     padding: 24px 0;
-    gap: 40px;
 }
 .studio a:hover {
     color: #404bbf;
@@ -82,6 +81,7 @@ img {
 
 .navigation {
     display: flex;
+    gap: 40px;
 }
 .navigation a {
     text-decoration: none;
@@ -99,6 +99,7 @@ img {
 
 .address {
     display: flex;
+    gap: 40px;
 } 
 .info {
     font-style: normal;
@@ -110,8 +111,6 @@ img {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
-
-    gap: 40px;
 }
 .info a:hover  {
     color: #404bbf;
@@ -181,7 +180,7 @@ button:focus {
     gap: 24px;
 }
 .frst-pic {
-    calc((100% - 72px) / 4);
+    width:calc((100% - 72px) / 4);
 }
 .title-team {
     font-weight: 500;
@@ -257,7 +256,7 @@ button:focus {
 
 
 .section4 {
-    padding-top: 120px;
+    padding-top: 120px 0;
 }
 .list-portf {
     display: flex;
@@ -293,12 +292,9 @@ button:focus {
 
 
 
-
-.container-footer {
-    padding: 100px 0;
-}
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .logo-footer {
     display: inline-block;
