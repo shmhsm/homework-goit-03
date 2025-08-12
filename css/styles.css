@@ -121,10 +121,14 @@ img {
 
     margin-right: 40px;
 }
+
 .telef {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
     margin-right: 0px;
 }
-
 
 .info a:hover  {
     color: #404bbf;
