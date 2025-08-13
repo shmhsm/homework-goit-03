@@ -251,7 +251,7 @@ button:focus {
     padding: 120px 0;
 }
 
-.container-team {
+.container {
     background-color: #F4F4FD;
 }
 
@@ -280,8 +280,9 @@ button:focus {
     text-align: center;
     margin-bottom: 8px;
 }
-.container1 {
-    padding: 32px 0;
+.container-list-port {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .team-p {
     text-align: center;
@@ -311,7 +312,7 @@ button:focus {
 }
 
 .frst-portf {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .details-portf {
