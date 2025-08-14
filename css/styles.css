@@ -65,6 +65,7 @@ img {
 
 .navigation {
     display: flex;
+    gap: 40px;
 }
 
 .navigation .studio {
