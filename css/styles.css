@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-h1 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 p {
@@ -28,6 +28,11 @@ img {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.container-header {
+    justify-content: space-between;
+    align-items: center;
 }
 
 .page-header {
@@ -62,6 +67,12 @@ img {
     display: flex;
 }
 
+.navigation .studio {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .navigation a {
     text-decoration: none;
     color: #2E2F42;
@@ -76,7 +87,7 @@ img {
     color: #404BBF;
 }
 
-.navig-list-end {
+.navig-end {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -84,8 +95,6 @@ img {
     color: #2e2f42;
 
     margin-right: 0px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .navig-list {
@@ -116,18 +125,22 @@ img {
 
 .info {
     font-style: normal;
+
 }
 
 .info a {
     text-decoration: none;
 }
 
+.address .first-hujnia, .second-hujnia {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .mail {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
-
-    margin-right: 40px;
     gap: 40px;
 }
 
@@ -135,19 +148,17 @@ img {
     margin-right: 40px;
 }
 
-.second-hujnia {
-    margin-right: 0;
-}
-
 .telef {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
-
     margin-right: 0px;
     gap: 40px;
 }
 
+.second-hujnia {
+    margin-right: 0;
+}
 
 .info a:hover  {
     color: #404bbf;
@@ -160,12 +171,15 @@ img {
 
 
 .first-section {
-    padding: 188px 0;
+    background-color: #2E2F42;
 }
 
-.main-page {
-    background-color: #2E2F42;
-    color: #FFFFFF;
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 188px 0;
 }
 
 .title-main {
@@ -177,9 +191,12 @@ img {
     color: #ffffff;
 
     max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .btn {
+    display: block;
+    margin: 0 auto;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
@@ -209,7 +226,7 @@ button:focus {
     padding: 120px 0;
 }
 
-.list-team {
+.list-prio {
     display: flex;
     gap: 24px;
 }
@@ -218,7 +235,7 @@ button:focus {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.title-team {
+.title-prio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -242,18 +259,16 @@ button:focus {
     overflow: hidden;
 }
 
-.strategy {
-    letter-spacing: 0.02em;
-}
-
 
 
 .third-sec {
     padding: 120px 0;
+    background-color: #F4F4FD;
 }
 
-.container {
-    background-color: #F4F4FD;
+.container-team {
+    display: flex;
+    flex-direction: column;
 }
 
 .list-team {
@@ -271,20 +286,27 @@ button:focus {
 
     margin-bottom: 72px;
 }
+
 .hiro {
     background-color: #FFFFFF;
-
     flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    box-shadow:
+            0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
 }
+
 .title-team {
     text-align: center;
     margin-bottom: 8px;
 }
+
 .container-list-port {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .team-p {
     text-align: center;
     font-size: 16px;
@@ -303,6 +325,8 @@ button:focus {
 
 .container-list-port {
     padding: 32px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-portf {
@@ -313,7 +337,10 @@ button:focus {
 }
 
 .list-list {
-    flex-basis: calc((100% - 2*24px) / 3);
+    width: calc( (100% - 2*24px) / 3);
+    box-sizing: border-box;
+    width: 360px;
+    flex-shrink: 0;
 }
 
 .details-portf {
@@ -348,22 +375,20 @@ button:focus {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.foot-logo {
-    display: inline-block;
-    margin-right: 76px;
-    margin-bottom: 16px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #4d5ae5;
+.container-footer {
+    display: flex;
+    flex-direction: column;
 }
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .span-footer {
     color: #f4f4fd;
 }
+
 .p-footer {
     color: #F4F4FD;
     letter-spacing: 0.02em;
